@@ -1,0 +1,175 @@
+.after {
+  position: absolute;
+  content: " ";
+  display: block;
+  left: 0;
+  top: 0;
+}
+
+.top-heading {
+  margin-bottom: 85px;
+  h3{
+    text-align: center;
+    font-family: $font-family;
+    font-size:  ceil($font-size-base * 2.333);
+    font-weight: $bold;
+    line-height: 45px;
+    text-transform: uppercase;
+  }
+  h4{
+    color: #000000;
+    font-family: $font-family;
+    font-size: 20px;
+    font-weight: $regular;
+    line-height: 24px;
+  }
+}
+.dark-red{
+  color: $dark-red;
+}
+.white{
+   color: $white;
+ }
+.black{
+  color: $black;
+}
+@mixin clearfix {
+  &:before,
+  &:after{
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+.vertical .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+  -moz-transition: 0.6s ease-in-out top;
+  -ms-transition: 0.6s ease-in-out top;
+  -o-transition: 0.6s ease-in-out top;
+  transition: 0.6s ease-in-out top;
+  img{
+    width: 100%;
+    display: block;
+  }
+}
+
+.carousel.vertical .active {
+  top: 0;
+}
+
+.carousel.vertical .next {
+  top: 400px;
+}
+
+.carousel.vertical .prev {
+  top: -400px;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+.carousel.vertical .active.left {
+  top: -400px;
+}
+
+.carousel.vertical .active.right {
+  top: 400px;
+}
+.carousel.vertical .item {
+  left: 0;
+}
+
+.carousel-caption {
+  right: 0;
+  left: 0;
+  top: 35%;
+  padding-bottom: 30px;
+  text-align: left;
+}
+.caption{
+  margin-bottom: 42px;
+  h2{
+    color: $white;
+    font-family: $font-family;
+    font-size: 60px;
+    font-weight: $bold;
+    line-height: 60px;
+    text-transform: uppercase;
+  }
+  h3{
+    color: $white;
+    font-family: $font-family;
+    font-size: 24px;
+    font-weight: $regular;
+   margin-bottom: 11px;
+  }
+  p{
+    min-height: 70px;
+  }
+}
+.custom-btn{
+  max-width: 200px;
+  height: 50px;
+  box-shadow: 0 20px 30px rgba(37, 15, 138, 0.2);
+  border-radius: 25px;
+  background-color: #ffffff;
+  display: block;
+  line-height: 33px;
+  color:$black;
+  font-family: $font-family;
+  font-weight: $sem-bold;
+  font-size: $font-size-base;
+  text-transform: uppercase;
+}
+
+.login-btn , .sign-up-btn{
+  opacity: 1;
+  display: inline-block;
+  padding: 15px 35px;
+  line-height: .7;
+  height: 41px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  max-width: 120px;
+  max-height: 40px;
+  border-radius: 20px;
+  box-shadow: none;
+  outline: none;
+  transition: 1s;
+  &:hover{
+  background-color: $dark-black;
+    color: $white;
+    transition: 1s;
+  }
+}
+.login-btn{
+  border: 1px solid $dark-red;
+  background-color:$white;
+  color: $dark-red;
+}
+.sign-up-btn{
+  background-color:$dark-red;
+  color: $white;
+}
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.pt-0{
+  padding-top: 0!important;
+}

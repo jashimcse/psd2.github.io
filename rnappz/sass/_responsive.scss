@@ -1,0 +1,148 @@
+/* Extra Small */
+@media(max-width:767px){
+  .header {
+    .custom-navbar {
+      .navbar-right {
+        float: left !important;
+      }
+    }
+  }
+  .carousel.vertical .item , .carousel.vertical .item img{
+    min-height: 600px;
+  }
+  .carousel-caption {
+    top: 13%;
+    .caption-img img{
+      min-height: auto !important;
+    }
+  }
+  .contact-us .form-bg {
+    min-height: 740px;
+  }
+  .footer{
+    .list-inline {
+      text-align: center;
+    }
+    .pull-right{
+float: none !important;
+      text-align: center;
+    }
+  }
+}
+/* Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .carousel-caption {
+    top: 8%;
+    .caption p {
+      min-height: auto;
+    }
+
+    .btn {
+      text-shadow: none;
+      margin-bottom: 20px;
+    }
+
+  }
+}
+
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .carousel-caption {
+    top: 8%;
+    .caption p {
+      min-height: auto;
+    }
+
+    .btn {
+      text-shadow: none;
+      margin-bottom: 20px;
+    }
+
+  }
+}
+
+
+/* Landscape */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+  .carousel-caption {
+    top: 8%;
+    .caption p {
+      min-height: auto;
+    }
+
+    .btn {
+      text-shadow: none;
+      margin-bottom: 20px;
+    }
+
+  }
+
+}
+
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+  .contact-us .form-bg {
+    min-height: 740px;
+  }
+  .contact-us .color-bg {
+    min-height:auto;
+  }
+  .service .service-box {
+    margin-bottom: 30px;
+  }
+
+  .carousel-caption .btn {
+    text-shadow: none;
+    margin-bottom: 20px;
+  }
+
+  .custom-navbar .navbar-nav > li {
+    margin-right: 0px;
+  }
+  .carousel.vertical .item , .carousel.vertical .item img{
+    min-height: 750px;
+  }
+  .carousel-caption {
+    top: 13%;
+    .caption-img img{
+      min-height: auto !important;
+    }
+  }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+  .contact-us .color-bg {
+    padding: 50px 10px;
+  }
+}
+
+/* Large */
+@media(min-width:1200px){
+	
+}

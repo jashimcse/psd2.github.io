@@ -1,0 +1,80 @@
+/* Extra Small */
+@media(max-width: 767px) {
+  .service {
+    .service-box {
+      margin-bottom: 30px;
+    }
+  }
+  .contact-us {
+    .color-bg {
+      min-height: auto;
+    }
+  }
+  .login {
+  .sign-in-form {
+      max-width: 100%;
+    }
+    .login-container {
+      padding: 50px 15px;
+      .full-contact{
+        margin-bottom: 40px;
+      }
+     .top-contact h3 {
+        font-size: 32px;
+      }
+       .single-image {
+        padding-top: 50px;
+      }
+    }
+    .sign-in-form ul > li {
+      margin-right: -3px;
+    }
+  }
+  .testimonial {
+    .rounded-circle {
+      float: none;
+    }
+    .single-testimonial{
+      .media{
+        text-align: center;
+      }
+    }
+  }
+}
+@media(max-width: 320px) {
+  .contact-us {
+    .color-bg, .form-bg {
+      padding: 50px 15px
+    }
+    .address ul li p {
+      font-size: 17px;
+    }
+
+  }
+  .login .login-container {
+    padding: 22px;
+    .full-contact {
+      margin-bottom: 130px;
+    }
+  }
+}
+
+/* Small */
+@media(min-width: 768px) and (max-width: 991px) {
+  .login .login-container {
+    padding: 132px 32px;
+  }
+  .login .sign-in-form {
+     max-width: 100%;
+  }
+}
+
+/* Medium */
+@media(min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large */
+@media(min-width: 1200px) {
+
+}
